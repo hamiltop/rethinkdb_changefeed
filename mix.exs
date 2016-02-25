@@ -32,7 +32,7 @@ defmodule RethinkDB.Changefeed.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:rethinkdb, path: "../rethinkdb-elixir"},
+      {:rethinkdb, "~> 0.4.0"},
       {:connection, "~> 1.0.1"},
       {:flaky_connection, github: "hamiltop/flaky_connection", only: :test}
     ]
