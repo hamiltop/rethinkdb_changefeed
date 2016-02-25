@@ -42,6 +42,8 @@ defmodule RethinkDB.Changefeed.Mixfile do
     [
       {:rethinkdb, "~> 0.4.0"},
       {:connection, "~> 1.0.1"},
+      {:earmark, "~> 0.1", only: :dev},
+      {:ex_doc, "~> 0.7", only: :dev},
       {:flaky_connection, github: "hamiltop/flaky_connection", only: :test}
     ]
   end
