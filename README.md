@@ -7,8 +7,6 @@ into a separate package to enable an independent release cycle.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
   1. Add rethinkdb\_changefeed to your list of dependencies in `mix.exs`:
 
         def deps do
