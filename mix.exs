@@ -5,9 +5,17 @@ defmodule RethinkDB.Changefeed.Mixfile do
     [app: :rethinkdb_changefeed,
      version: "0.0.1",
      elixir: "~> 1.2",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
+     description: "RethinkDB Supervised Changefeeds",
+     package: package,
      deps: deps]
+  end
+
+  def package do
+    [
+      maintainers: ["Peter Hamilton"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/hamiltop/rethinkdb_changefeed"}
+    ]
   end
 
   # Configuration for the OTP application
