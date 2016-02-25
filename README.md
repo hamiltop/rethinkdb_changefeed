@@ -1,6 +1,8 @@
-# RethinkdbChangefeed
+# `RethinkDB.Changefeed`
 
-**TODO: Add description**
+Supervised changefeeds for RethinkDB and Elixir. This package was previously a part of the
+[RethinkDB driver](https://github.com/hamiltop/rethinkdb_changefeed). It was broken out
+into a separate package to enable an independent release cycle.
 
 ## Installation
 
